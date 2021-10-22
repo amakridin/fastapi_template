@@ -8,7 +8,7 @@ class Settings:
     host: str = "0.0.0.0"
     port: int = 8008
     service_name: str = "fastapi_app"
-    default_timeout_s: int = 2
+    timeout: int = 2
 
 
 if __name__ == "__main__":
